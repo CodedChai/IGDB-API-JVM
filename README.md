@@ -19,7 +19,7 @@ Information about the Querying language APICalypse:
 * [apicalypse.io](https://apicalypse.io/)
 
 ## About the wrapper
-This wrapper is written in Kotlin which uses the JVM and works with both Koltin & Java projects. I have not tested it on other JVM languages but it should work for these languages as well. The examples below showcase this wrapper in both Kotlin and Java.
+This wrapper is written in Kotlin which uses the JVM and works with both Kotlin & Java projects. I have not tested it on other JVM languages but it should work for these languages as well. The examples below showcase this wrapper in both Kotlin and Java.
 
 Feel free to test it on other languages yourselves :)
 
