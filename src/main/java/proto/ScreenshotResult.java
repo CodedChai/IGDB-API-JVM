@@ -38,32 +38,32 @@ public  final class ScreenshotResult extends
   public static final int SCREENSHOTS_FIELD_NUMBER = 1;
   private java.util.List<proto.Screenshot> screenshots_;
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   public java.util.List<proto.Screenshot> getScreenshotsList() {
     return screenshots_;
   }
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   public java.util.List<? extends proto.ScreenshotOrBuilder> 
       getScreenshotsOrBuilderList() {
     return screenshots_;
   }
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   public int getScreenshotsCount() {
     return screenshots_.size();
   }
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   public proto.Screenshot getScreenshots(int index) {
     return screenshots_.get(index);
   }
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   public proto.ScreenshotOrBuilder getScreenshotsOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class ScreenshotResult extends
         proto.Screenshot, proto.Screenshot.Builder, proto.ScreenshotOrBuilder> screenshotsBuilder_;
 
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public java.util.List<proto.Screenshot> getScreenshotsList() {
       if (screenshotsBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class ScreenshotResult extends
       }
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public int getScreenshotsCount() {
       if (screenshotsBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class ScreenshotResult extends
       }
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public proto.Screenshot getScreenshots(int index) {
       if (screenshotsBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class ScreenshotResult extends
       }
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder setScreenshots(
         int index, proto.Screenshot value) {
@@ -314,7 +314,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder setScreenshots(
         int index, proto.Screenshot.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder addScreenshots(proto.Screenshot value) {
       if (screenshotsBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder addScreenshots(
         int index, proto.Screenshot value) {
@@ -361,7 +361,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder addScreenshots(
         proto.Screenshot.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder addScreenshots(
         int index, proto.Screenshot.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder addAllScreenshots(
         java.lang.Iterable<? extends proto.Screenshot> values) {
@@ -404,7 +404,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder clearScreenshots() {
       if (screenshotsBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public Builder removeScreenshots(int index) {
       if (screenshotsBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class ScreenshotResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public proto.Screenshot.Builder getScreenshotsBuilder(
         int index) {
       return getScreenshotsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public proto.ScreenshotOrBuilder getScreenshotsOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class ScreenshotResult extends
       }
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public java.util.List<? extends proto.ScreenshotOrBuilder> 
          getScreenshotsOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class ScreenshotResult extends
       }
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public proto.Screenshot.Builder addScreenshotsBuilder() {
       return getScreenshotsFieldBuilder().addBuilder(
           proto.Screenshot.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public proto.Screenshot.Builder addScreenshotsBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class ScreenshotResult extends
           index, proto.Screenshot.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Screenshot screenshots = 1;</code>
+     * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
      */
     public java.util.List<proto.Screenshot.Builder> 
          getScreenshotsBuilderList() {

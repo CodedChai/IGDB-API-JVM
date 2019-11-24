@@ -8,25 +8,25 @@ public interface CompanyResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   java.util.List<proto.Company> 
       getCompaniesList();
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   proto.Company getCompanies(int index);
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   int getCompaniesCount();
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   java.util.List<? extends proto.CompanyOrBuilder> 
       getCompaniesOrBuilderList();
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   proto.CompanyOrBuilder getCompaniesOrBuilder(
       int index);

@@ -8,25 +8,25 @@ public interface TitleResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   java.util.List<proto.Title> 
       getTitlesList();
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   proto.Title getTitles(int index);
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   int getTitlesCount();
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   java.util.List<? extends proto.TitleOrBuilder> 
       getTitlesOrBuilderList();
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   proto.TitleOrBuilder getTitlesOrBuilder(
       int index);

@@ -1,4 +1,4 @@
-
+package com.codedchai.igdb.kt
 /**
  * Endpoint
  * Lets users access public Endpoints
@@ -20,7 +20,7 @@ enum class Endpoint  {
 }
 
 /**
- * PrivateEndpoint
+ * com.codedchai.igdb.kt.PrivateEndpoint
  * Lets users access private Endpoints
  *
  * Created at: 2018-01-03

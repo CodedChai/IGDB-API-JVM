@@ -1,3 +1,5 @@
+package com.codedchai.igdb.kt
+
 import com.github.kittinunf.fuel.httpPost
 
 /**

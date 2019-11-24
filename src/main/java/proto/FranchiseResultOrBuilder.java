@@ -8,25 +8,25 @@ public interface FranchiseResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   java.util.List<proto.Franchise> 
       getFranchisesList();
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   proto.Franchise getFranchises(int index);
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   int getFranchisesCount();
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   java.util.List<? extends proto.FranchiseOrBuilder> 
       getFranchisesOrBuilderList();
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   proto.FranchiseOrBuilder getFranchisesOrBuilder(
       int index);

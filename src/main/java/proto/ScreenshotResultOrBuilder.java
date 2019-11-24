@@ -8,25 +8,25 @@ public interface ScreenshotResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   java.util.List<proto.Screenshot> 
       getScreenshotsList();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   proto.Screenshot getScreenshots(int index);
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   int getScreenshotsCount();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   java.util.List<? extends proto.ScreenshotOrBuilder> 
       getScreenshotsOrBuilderList();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 1;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 1;</code>
    */
   proto.ScreenshotOrBuilder getScreenshotsOrBuilder(
       int index);

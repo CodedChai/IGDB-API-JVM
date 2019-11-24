@@ -38,32 +38,32 @@ public  final class FranchiseResult extends
   public static final int FRANCHISES_FIELD_NUMBER = 1;
   private java.util.List<proto.Franchise> franchises_;
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   public java.util.List<proto.Franchise> getFranchisesList() {
     return franchises_;
   }
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   public java.util.List<? extends proto.FranchiseOrBuilder> 
       getFranchisesOrBuilderList() {
     return franchises_;
   }
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   public int getFranchisesCount() {
     return franchises_.size();
   }
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   public proto.Franchise getFranchises(int index) {
     return franchises_.get(index);
   }
   /**
-   * <code>repeated .proto.Franchise franchises = 1;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
    */
   public proto.FranchiseOrBuilder getFranchisesOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class FranchiseResult extends
         proto.Franchise, proto.Franchise.Builder, proto.FranchiseOrBuilder> franchisesBuilder_;
 
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public java.util.List<proto.Franchise> getFranchisesList() {
       if (franchisesBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class FranchiseResult extends
       }
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public int getFranchisesCount() {
       if (franchisesBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class FranchiseResult extends
       }
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public proto.Franchise getFranchises(int index) {
       if (franchisesBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class FranchiseResult extends
       }
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder setFranchises(
         int index, proto.Franchise value) {
@@ -314,7 +314,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder setFranchises(
         int index, proto.Franchise.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder addFranchises(proto.Franchise value) {
       if (franchisesBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder addFranchises(
         int index, proto.Franchise value) {
@@ -361,7 +361,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder addFranchises(
         proto.Franchise.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder addFranchises(
         int index, proto.Franchise.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder addAllFranchises(
         java.lang.Iterable<? extends proto.Franchise> values) {
@@ -404,7 +404,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder clearFranchises() {
       if (franchisesBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public Builder removeFranchises(int index) {
       if (franchisesBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class FranchiseResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public proto.Franchise.Builder getFranchisesBuilder(
         int index) {
       return getFranchisesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public proto.FranchiseOrBuilder getFranchisesOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class FranchiseResult extends
       }
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public java.util.List<? extends proto.FranchiseOrBuilder> 
          getFranchisesOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class FranchiseResult extends
       }
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public proto.Franchise.Builder addFranchisesBuilder() {
       return getFranchisesFieldBuilder().addBuilder(
           proto.Franchise.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public proto.Franchise.Builder addFranchisesBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class FranchiseResult extends
           index, proto.Franchise.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Franchise franchises = 1;</code>
+     * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 1;</code>
      */
     public java.util.List<proto.Franchise.Builder> 
          getFranchisesBuilderList() {

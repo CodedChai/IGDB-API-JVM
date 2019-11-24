@@ -8,25 +8,25 @@ public interface PulseResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Pulse pulses = 1;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 1;</code>
    */
   java.util.List<proto.Pulse> 
       getPulsesList();
   /**
-   * <code>repeated .proto.Pulse pulses = 1;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 1;</code>
    */
   proto.Pulse getPulses(int index);
   /**
-   * <code>repeated .proto.Pulse pulses = 1;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 1;</code>
    */
   int getPulsesCount();
   /**
-   * <code>repeated .proto.Pulse pulses = 1;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 1;</code>
    */
   java.util.List<? extends proto.PulseOrBuilder> 
       getPulsesOrBuilderList();
   /**
-   * <code>repeated .proto.Pulse pulses = 1;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 1;</code>
    */
   proto.PulseOrBuilder getPulsesOrBuilder(
       int index);

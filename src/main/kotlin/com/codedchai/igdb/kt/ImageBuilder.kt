@@ -1,4 +1,4 @@
-
+package com.codedchai.igdb.kt
 /*
 * ImageURL
 * This file holds a simple Image URL builder where you can choose image size and type

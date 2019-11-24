@@ -38,32 +38,32 @@ public  final class CollectionResult extends
   public static final int COLLECTIONS_FIELD_NUMBER = 1;
   private java.util.List<proto.Collection> collections_;
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   public java.util.List<proto.Collection> getCollectionsList() {
     return collections_;
   }
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   public java.util.List<? extends proto.CollectionOrBuilder> 
       getCollectionsOrBuilderList() {
     return collections_;
   }
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   public int getCollectionsCount() {
     return collections_.size();
   }
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   public proto.Collection getCollections(int index) {
     return collections_.get(index);
   }
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   public proto.CollectionOrBuilder getCollectionsOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class CollectionResult extends
         proto.Collection, proto.Collection.Builder, proto.CollectionOrBuilder> collectionsBuilder_;
 
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public java.util.List<proto.Collection> getCollectionsList() {
       if (collectionsBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class CollectionResult extends
       }
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public int getCollectionsCount() {
       if (collectionsBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class CollectionResult extends
       }
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public proto.Collection getCollections(int index) {
       if (collectionsBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class CollectionResult extends
       }
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder setCollections(
         int index, proto.Collection value) {
@@ -314,7 +314,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder setCollections(
         int index, proto.Collection.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder addCollections(proto.Collection value) {
       if (collectionsBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder addCollections(
         int index, proto.Collection value) {
@@ -361,7 +361,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder addCollections(
         proto.Collection.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder addCollections(
         int index, proto.Collection.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder addAllCollections(
         java.lang.Iterable<? extends proto.Collection> values) {
@@ -404,7 +404,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder clearCollections() {
       if (collectionsBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public Builder removeCollections(int index) {
       if (collectionsBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class CollectionResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public proto.Collection.Builder getCollectionsBuilder(
         int index) {
       return getCollectionsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public proto.CollectionOrBuilder getCollectionsOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class CollectionResult extends
       }
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public java.util.List<? extends proto.CollectionOrBuilder> 
          getCollectionsOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class CollectionResult extends
       }
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public proto.Collection.Builder addCollectionsBuilder() {
       return getCollectionsFieldBuilder().addBuilder(
           proto.Collection.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public proto.Collection.Builder addCollectionsBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class CollectionResult extends
           index, proto.Collection.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Collection collections = 1;</code>
+     * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
      */
     public java.util.List<proto.Collection.Builder> 
          getCollectionsBuilderList() {

@@ -8,25 +8,25 @@ public interface FeedResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   java.util.List<proto.Feed> 
       getFeedsList();
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   proto.Feed getFeeds(int index);
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   int getFeedsCount();
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   java.util.List<? extends proto.FeedOrBuilder> 
       getFeedsOrBuilderList();
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   proto.FeedOrBuilder getFeedsOrBuilder(
       int index);

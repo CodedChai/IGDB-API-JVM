@@ -38,32 +38,32 @@ public  final class TitleResult extends
   public static final int TITLES_FIELD_NUMBER = 1;
   private java.util.List<proto.Title> titles_;
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   public java.util.List<proto.Title> getTitlesList() {
     return titles_;
   }
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   public java.util.List<? extends proto.TitleOrBuilder> 
       getTitlesOrBuilderList() {
     return titles_;
   }
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   public int getTitlesCount() {
     return titles_.size();
   }
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   public proto.Title getTitles(int index) {
     return titles_.get(index);
   }
   /**
-   * <code>repeated .proto.Title titles = 1;</code>
+   * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
    */
   public proto.TitleOrBuilder getTitlesOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class TitleResult extends
         proto.Title, proto.Title.Builder, proto.TitleOrBuilder> titlesBuilder_;
 
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public java.util.List<proto.Title> getTitlesList() {
       if (titlesBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class TitleResult extends
       }
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public int getTitlesCount() {
       if (titlesBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class TitleResult extends
       }
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public proto.Title getTitles(int index) {
       if (titlesBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class TitleResult extends
       }
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder setTitles(
         int index, proto.Title value) {
@@ -314,7 +314,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder setTitles(
         int index, proto.Title.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder addTitles(proto.Title value) {
       if (titlesBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder addTitles(
         int index, proto.Title value) {
@@ -361,7 +361,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder addTitles(
         proto.Title.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder addTitles(
         int index, proto.Title.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder addAllTitles(
         java.lang.Iterable<? extends proto.Title> values) {
@@ -404,7 +404,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder clearTitles() {
       if (titlesBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public Builder removeTitles(int index) {
       if (titlesBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class TitleResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public proto.Title.Builder getTitlesBuilder(
         int index) {
       return getTitlesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public proto.TitleOrBuilder getTitlesOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class TitleResult extends
       }
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public java.util.List<? extends proto.TitleOrBuilder> 
          getTitlesOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class TitleResult extends
       }
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public proto.Title.Builder addTitlesBuilder() {
       return getTitlesFieldBuilder().addBuilder(
           proto.Title.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public proto.Title.Builder addTitlesBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class TitleResult extends
           index, proto.Title.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Title titles = 1;</code>
+     * <code>repeated .proto.Title com.codedchai.igdb.kt.titles = 1;</code>
      */
     public java.util.List<proto.Title.Builder> 
          getTitlesBuilderList() {

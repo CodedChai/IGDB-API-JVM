@@ -148,32 +148,32 @@ public  final class PulseGroup extends
   public static final int PULSES_FIELD_NUMBER = 6;
   private java.util.List<proto.Pulse> pulses_;
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   public java.util.List<proto.Pulse> getPulsesList() {
     return pulses_;
   }
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   public java.util.List<? extends proto.PulseOrBuilder> 
       getPulsesOrBuilderList() {
     return pulses_;
   }
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   public int getPulsesCount() {
     return pulses_.size();
   }
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   public proto.Pulse getPulses(int index) {
     return pulses_.get(index);
   }
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   public proto.PulseOrBuilder getPulsesOrBuilder(
       int index) {
@@ -925,7 +925,7 @@ public  final class PulseGroup extends
         proto.Pulse, proto.Pulse.Builder, proto.PulseOrBuilder> pulsesBuilder_;
 
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public java.util.List<proto.Pulse> getPulsesList() {
       if (pulsesBuilder_ == null) {
@@ -935,7 +935,7 @@ public  final class PulseGroup extends
       }
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public int getPulsesCount() {
       if (pulsesBuilder_ == null) {
@@ -945,7 +945,7 @@ public  final class PulseGroup extends
       }
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public proto.Pulse getPulses(int index) {
       if (pulsesBuilder_ == null) {
@@ -955,7 +955,7 @@ public  final class PulseGroup extends
       }
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder setPulses(
         int index, proto.Pulse value) {
@@ -972,7 +972,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder setPulses(
         int index, proto.Pulse.Builder builderForValue) {
@@ -986,7 +986,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder addPulses(proto.Pulse value) {
       if (pulsesBuilder_ == null) {
@@ -1002,7 +1002,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder addPulses(
         int index, proto.Pulse value) {
@@ -1019,7 +1019,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder addPulses(
         proto.Pulse.Builder builderForValue) {
@@ -1033,7 +1033,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder addPulses(
         int index, proto.Pulse.Builder builderForValue) {
@@ -1047,7 +1047,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder addAllPulses(
         java.lang.Iterable<? extends proto.Pulse> values) {
@@ -1062,7 +1062,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder clearPulses() {
       if (pulsesBuilder_ == null) {
@@ -1075,7 +1075,7 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public Builder removePulses(int index) {
       if (pulsesBuilder_ == null) {
@@ -1088,14 +1088,14 @@ public  final class PulseGroup extends
       return this;
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public proto.Pulse.Builder getPulsesBuilder(
         int index) {
       return getPulsesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public proto.PulseOrBuilder getPulsesOrBuilder(
         int index) {
@@ -1105,7 +1105,7 @@ public  final class PulseGroup extends
       }
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public java.util.List<? extends proto.PulseOrBuilder> 
          getPulsesOrBuilderList() {
@@ -1116,14 +1116,14 @@ public  final class PulseGroup extends
       }
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public proto.Pulse.Builder addPulsesBuilder() {
       return getPulsesFieldBuilder().addBuilder(
           proto.Pulse.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public proto.Pulse.Builder addPulsesBuilder(
         int index) {
@@ -1131,7 +1131,7 @@ public  final class PulseGroup extends
           index, proto.Pulse.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Pulse pulses = 6;</code>
+     * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
      */
     public java.util.List<proto.Pulse.Builder> 
          getPulsesBuilderList() {

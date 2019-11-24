@@ -13,25 +13,25 @@ public interface PlatformVersionOrBuilder extends
   long getId();
 
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   java.util.List<proto.PlatformVersionCompany> 
       getCompaniesList();
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   proto.PlatformVersionCompany getCompanies(int index);
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   int getCompaniesCount();
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   java.util.List<? extends proto.PlatformVersionCompanyOrBuilder> 
       getCompaniesOrBuilderList();
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   proto.PlatformVersionCompanyOrBuilder getCompaniesOrBuilder(
       int index);
@@ -153,25 +153,25 @@ public interface PlatformVersionOrBuilder extends
   proto.PlatformLogoOrBuilder getPlatformLogoOrBuilder();
 
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   java.util.List<proto.PlatformVersionReleaseDate> 
       getPlatformVersionReleaseDatesList();
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   proto.PlatformVersionReleaseDate getPlatformVersionReleaseDates(int index);
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   int getPlatformVersionReleaseDatesCount();
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   java.util.List<? extends proto.PlatformVersionReleaseDateOrBuilder> 
       getPlatformVersionReleaseDatesOrBuilderList();
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   proto.PlatformVersionReleaseDateOrBuilder getPlatformVersionReleaseDatesOrBuilder(
       int index);

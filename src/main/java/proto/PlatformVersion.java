@@ -65,32 +65,32 @@ public  final class PlatformVersion extends
   public static final int COMPANIES_FIELD_NUMBER = 2;
   private java.util.List<proto.PlatformVersionCompany> companies_;
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   public java.util.List<proto.PlatformVersionCompany> getCompaniesList() {
     return companies_;
   }
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   public java.util.List<? extends proto.PlatformVersionCompanyOrBuilder> 
       getCompaniesOrBuilderList() {
     return companies_;
   }
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   public int getCompaniesCount() {
     return companies_.size();
   }
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   public proto.PlatformVersionCompany getCompanies(int index) {
     return companies_.get(index);
   }
   /**
-   * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+   * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
    */
   public proto.PlatformVersionCompanyOrBuilder getCompaniesOrBuilder(
       int index) {
@@ -448,32 +448,32 @@ public  final class PlatformVersion extends
   public static final int PLATFORMVERSIONRELEASEDATES_FIELD_NUMBER = 14;
   private java.util.List<proto.PlatformVersionReleaseDate> platformVersionReleaseDates_;
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   public java.util.List<proto.PlatformVersionReleaseDate> getPlatformVersionReleaseDatesList() {
     return platformVersionReleaseDates_;
   }
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   public java.util.List<? extends proto.PlatformVersionReleaseDateOrBuilder> 
       getPlatformVersionReleaseDatesOrBuilderList() {
     return platformVersionReleaseDates_;
   }
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   public int getPlatformVersionReleaseDatesCount() {
     return platformVersionReleaseDates_.size();
   }
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   public proto.PlatformVersionReleaseDate getPlatformVersionReleaseDates(int index) {
     return platformVersionReleaseDates_.get(index);
   }
   /**
-   * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+   * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
    */
   public proto.PlatformVersionReleaseDateOrBuilder getPlatformVersionReleaseDatesOrBuilder(
       int index) {
@@ -995,7 +995,7 @@ public  final class PlatformVersion extends
         proto.PlatformVersionCompany, proto.PlatformVersionCompany.Builder, proto.PlatformVersionCompanyOrBuilder> companiesBuilder_;
 
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public java.util.List<proto.PlatformVersionCompany> getCompaniesList() {
       if (companiesBuilder_ == null) {
@@ -1005,7 +1005,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public int getCompaniesCount() {
       if (companiesBuilder_ == null) {
@@ -1015,7 +1015,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public proto.PlatformVersionCompany getCompanies(int index) {
       if (companiesBuilder_ == null) {
@@ -1025,7 +1025,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder setCompanies(
         int index, proto.PlatformVersionCompany value) {
@@ -1042,7 +1042,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder setCompanies(
         int index, proto.PlatformVersionCompany.Builder builderForValue) {
@@ -1056,7 +1056,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder addCompanies(proto.PlatformVersionCompany value) {
       if (companiesBuilder_ == null) {
@@ -1072,7 +1072,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder addCompanies(
         int index, proto.PlatformVersionCompany value) {
@@ -1089,7 +1089,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder addCompanies(
         proto.PlatformVersionCompany.Builder builderForValue) {
@@ -1103,7 +1103,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder addCompanies(
         int index, proto.PlatformVersionCompany.Builder builderForValue) {
@@ -1117,7 +1117,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder addAllCompanies(
         java.lang.Iterable<? extends proto.PlatformVersionCompany> values) {
@@ -1132,7 +1132,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder clearCompanies() {
       if (companiesBuilder_ == null) {
@@ -1145,7 +1145,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public Builder removeCompanies(int index) {
       if (companiesBuilder_ == null) {
@@ -1158,14 +1158,14 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public proto.PlatformVersionCompany.Builder getCompaniesBuilder(
         int index) {
       return getCompaniesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public proto.PlatformVersionCompanyOrBuilder getCompaniesOrBuilder(
         int index) {
@@ -1175,7 +1175,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public java.util.List<? extends proto.PlatformVersionCompanyOrBuilder> 
          getCompaniesOrBuilderList() {
@@ -1186,14 +1186,14 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public proto.PlatformVersionCompany.Builder addCompaniesBuilder() {
       return getCompaniesFieldBuilder().addBuilder(
           proto.PlatformVersionCompany.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public proto.PlatformVersionCompany.Builder addCompaniesBuilder(
         int index) {
@@ -1201,7 +1201,7 @@ public  final class PlatformVersion extends
           index, proto.PlatformVersionCompany.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.PlatformVersionCompany companies = 2;</code>
+     * <code>repeated .proto.PlatformVersionCompany com.codedchai.igdb.kt.companies = 2;</code>
      */
     public java.util.List<proto.PlatformVersionCompany.Builder> 
          getCompaniesBuilderList() {
@@ -2090,7 +2090,7 @@ public  final class PlatformVersion extends
         proto.PlatformVersionReleaseDate, proto.PlatformVersionReleaseDate.Builder, proto.PlatformVersionReleaseDateOrBuilder> platformVersionReleaseDatesBuilder_;
 
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public java.util.List<proto.PlatformVersionReleaseDate> getPlatformVersionReleaseDatesList() {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2100,7 +2100,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public int getPlatformVersionReleaseDatesCount() {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2110,7 +2110,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public proto.PlatformVersionReleaseDate getPlatformVersionReleaseDates(int index) {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2120,7 +2120,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder setPlatformVersionReleaseDates(
         int index, proto.PlatformVersionReleaseDate value) {
@@ -2137,7 +2137,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder setPlatformVersionReleaseDates(
         int index, proto.PlatformVersionReleaseDate.Builder builderForValue) {
@@ -2151,7 +2151,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder addPlatformVersionReleaseDates(proto.PlatformVersionReleaseDate value) {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2167,7 +2167,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder addPlatformVersionReleaseDates(
         int index, proto.PlatformVersionReleaseDate value) {
@@ -2184,7 +2184,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder addPlatformVersionReleaseDates(
         proto.PlatformVersionReleaseDate.Builder builderForValue) {
@@ -2198,7 +2198,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder addPlatformVersionReleaseDates(
         int index, proto.PlatformVersionReleaseDate.Builder builderForValue) {
@@ -2212,7 +2212,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder addAllPlatformVersionReleaseDates(
         java.lang.Iterable<? extends proto.PlatformVersionReleaseDate> values) {
@@ -2227,7 +2227,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder clearPlatformVersionReleaseDates() {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2240,7 +2240,7 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public Builder removePlatformVersionReleaseDates(int index) {
       if (platformVersionReleaseDatesBuilder_ == null) {
@@ -2253,14 +2253,14 @@ public  final class PlatformVersion extends
       return this;
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public proto.PlatformVersionReleaseDate.Builder getPlatformVersionReleaseDatesBuilder(
         int index) {
       return getPlatformVersionReleaseDatesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public proto.PlatformVersionReleaseDateOrBuilder getPlatformVersionReleaseDatesOrBuilder(
         int index) {
@@ -2270,7 +2270,7 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public java.util.List<? extends proto.PlatformVersionReleaseDateOrBuilder> 
          getPlatformVersionReleaseDatesOrBuilderList() {
@@ -2281,14 +2281,14 @@ public  final class PlatformVersion extends
       }
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public proto.PlatformVersionReleaseDate.Builder addPlatformVersionReleaseDatesBuilder() {
       return getPlatformVersionReleaseDatesFieldBuilder().addBuilder(
           proto.PlatformVersionReleaseDate.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public proto.PlatformVersionReleaseDate.Builder addPlatformVersionReleaseDatesBuilder(
         int index) {
@@ -2296,7 +2296,7 @@ public  final class PlatformVersion extends
           index, proto.PlatformVersionReleaseDate.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.PlatformVersionReleaseDate platformVersionReleaseDates = 14;</code>
+     * <code>repeated .proto.PlatformVersionReleaseDate com.codedchai.igdb.kt.platformVersionReleaseDates = 14;</code>
      */
     public java.util.List<proto.PlatformVersionReleaseDate.Builder> 
          getPlatformVersionReleaseDatesBuilderList() {

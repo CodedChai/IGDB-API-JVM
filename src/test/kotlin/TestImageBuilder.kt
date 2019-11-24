@@ -9,7 +9,7 @@ class TestImageBuilder {
         wrapper.userkey = System.getenv("key")
     }
 
-    // TODO change url to image_id after covers bug is resolved! API3-214
+    // TODO change url to image_id after com.codedchai.igdb.kt.covers bug is resolved! API3-214
 
     @Test
     fun testJPEGImg() {

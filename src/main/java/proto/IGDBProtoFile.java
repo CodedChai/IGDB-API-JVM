@@ -791,7 +791,7 @@ public final class IGDBProtoFile {
       "\032\n\005games\030\003 \003(\0132\013.proto.Game\022\014\n\004name\030\004 \001(" +
       "\t\022\014\n\004slug\030\005 \001(\t\022-\n\tupdatedAt\030\006 \001(\0132\032.goo" +
       "gle.protobuf.Timestamp\022\013\n\003url\030\007 \001(\t\"2\n\rC" +
-      "ompanyResult\022!\n\tcompanies\030\001 \003(\0132\016.proto." +
+      "ompanyResult\022!\n\tcom.codedchai.igdb.kt.companies\030\001 \003(\0132\016.proto." +
       "Company\"\375\004\n\007Company\022\n\n\002id\030\001 \001(\004\022.\n\nchang" +
       "eDate\030\002 \001(\0132\032.google.protobuf.Timestamp\022" +
       "B\n\022changeDateCategory\030\003 \001(\0162&.proto.Date" +
@@ -864,7 +864,7 @@ public final class IGDBProtoFile {
       "FollowResult\022\036\n\007follows\030\001 \003(\0132\r.proto.Fo" +
       "llow\"J\n\006Follow\022\n\n\002id\030\001 \001(\004\022\031\n\004game\030\002 \001(\013" +
       "2\013.proto.Game\022\031\n\004user\030\003 \001(\0132\013.proto.User" +
-      "\"7\n\017FranchiseResult\022$\n\nfranchises\030\001 \003(\0132" +
+      "\"7\n\017FranchiseResult\022$\n\ncom.codedchai.igdb.kt.franchises\030\001 \003(\0132" +
       "\020.proto.Franchise\"\272\001\n\tFranchise\022\n\n\002id\030\001 " +
       "\001(\004\022-\n\tcreatedAt\030\002 \001(\0132\032.google.protobuf" +
       ".Timestamp\022\032\n\005games\030\003 \003(\0132\013.proto.Game\022\014",
@@ -882,13 +882,13 @@ public final class IGDBProtoFile {
       "\022\033\n\005cover\030\n \001(\0132\014.proto.Cover\022-\n\tcreated" +
       "At\030\013 \001(\0132\032.google.protobuf.Timestamp\022\031\n\004" +
       "dlcs\030\014 \003(\0132\013.proto.Game\022\037\n\nexpansions\030\r " +
-      "\003(\0132\013.proto.Game\022*\n\rexternalGames\030\016 \003(\0132" +
+      "\003(\0132\013.proto.Game\022*\n\rcom.codedchai.igdb.kt.externalGames\030\016 \003(\0132" +
       "\023.proto.ExternalGame\0224\n\020firstReleaseDate" +
       "\030\017 \001(\0132\032.google.protobuf.Timestamp\022\017\n\007fo" +
       "llows\030\020 \001(\005\022#\n\tfranchise\030\021 \001(\0132\020.proto.F" +
-      "ranchise\022$\n\nfranchises\030\022 \003(\0132\020.proto.Fra" +
+      "ranchise\022$\n\ncom.codedchai.igdb.kt.franchises\030\022 \003(\0132\020.proto.Fra" +
       "nchise\022&\n\013gameEngines\030\023 \003(\0132\021.proto.Game",
-      "Engine\022\"\n\tgameModes\030\024 \003(\0132\017.proto.GameMo" +
+      "Engine\022\"\n\tcom.codedchai.igdb.kt.gameModes\030\024 \003(\0132\017.proto.GameMo" +
       "de\022\034\n\006genres\030\025 \003(\0132\014.proto.Genre\022\r\n\005hype" +
       "s\030\026 \001(\005\0221\n\021involvedCompanies\030\027 \003(\0132\026.pro" +
       "to.InvolvedCompany\022 \n\010keywords\030\030 \003(\0132\016.p" +
@@ -899,7 +899,7 @@ public final class IGDBProtoFile {
       "ectives\030\035 \003(\0132\030.proto.PlayerPerspective\022" +
       "\022\n\npopularity\030\036 \001(\001\022\022\n\npulseCount\030\037 \001(\005\022",
       "\016\n\006rating\030  \001(\001\022\023\n\013ratingCount\030! \001(\005\022(\n\014" +
-      "releaseDates\030\" \003(\0132\022.proto.ReleaseDate\022&" +
+      "com.codedchai.igdb.kt.releaseDates\030\" \003(\0132\022.proto.ReleaseDate\022&" +
       "\n\013screenshots\030# \003(\0132\021.proto.Screenshot\022!" +
       "\n\014similarGames\030$ \003(\0132\013.proto.Game\022\014\n\004slu" +
       "g\030% \001(\t\022)\n\024standaloneExpansions\030& \003(\0132\013." +
@@ -915,7 +915,7 @@ public final class IGDBProtoFile {
       "meVideo\022 \n\010websites\0304 \003(\0132\016.proto.Websit" +
       "e\":\n\020GameEngineResult\022&\n\013gameengines\030\001 \003" +
       "(\0132\021.proto.GameEngine\"\240\002\n\nGameEngine\022\n\n\002" +
-      "id\030\001 \001(\004\022!\n\tcompanies\030\002 \003(\0132\016.proto.Comp" +
+      "id\030\001 \001(\004\022!\n\tcom.codedchai.igdb.kt.companies\030\002 \003(\0132\016.proto.Comp" +
       "any\022-\n\tcreatedAt\030\003 \001(\0132\032.google.protobuf" +
       ".Timestamp\022\023\n\013description\030\004 \001(\t\022#\n\004logo\030",
       "\005 \001(\0132\025.proto.GameEngineLogo\022\014\n\004name\030\006 \001" +
@@ -1076,7 +1076,7 @@ public final class IGDBProtoFile {
       "\022\013\n\003url\030\006 \001(\t\022\r\n\005width\030\007 \001(\005\"I\n\025Platform" +
       "VersionResult\0220\n\020platformversions\030\001 \003(\0132" +
       "\026.proto.PlatformVersion\"\352\003\n\017PlatformVers" +
-      "ion\022\n\n\002id\030\001 \001(\004\0220\n\tcompanies\030\002 \003(\0132\035.pro" +
+      "ion\022\n\n\002id\030\001 \001(\004\0220\n\tcom.codedchai.igdb.kt.companies\030\002 \003(\0132\035.pro" +
       "to.PlatformVersionCompany\022\024\n\014connectivit",
       "y\030\003 \001(\t\022\013\n\003cpu\030\004 \001(\t\022\020\n\010graphics\030\005 \001(\t\0227" +
       "\n\020mainManufacturer\030\006 \001(\0132\035.proto.Platfor" +

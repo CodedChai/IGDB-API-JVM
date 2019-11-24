@@ -38,32 +38,32 @@ public  final class CoverResult extends
   public static final int COVERS_FIELD_NUMBER = 1;
   private java.util.List<proto.Cover> covers_;
   /**
-   * <code>repeated .proto.Cover covers = 1;</code>
+   * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
    */
   public java.util.List<proto.Cover> getCoversList() {
     return covers_;
   }
   /**
-   * <code>repeated .proto.Cover covers = 1;</code>
+   * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
    */
   public java.util.List<? extends proto.CoverOrBuilder> 
       getCoversOrBuilderList() {
     return covers_;
   }
   /**
-   * <code>repeated .proto.Cover covers = 1;</code>
+   * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
    */
   public int getCoversCount() {
     return covers_.size();
   }
   /**
-   * <code>repeated .proto.Cover covers = 1;</code>
+   * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
    */
   public proto.Cover getCovers(int index) {
     return covers_.get(index);
   }
   /**
-   * <code>repeated .proto.Cover covers = 1;</code>
+   * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
    */
   public proto.CoverOrBuilder getCoversOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class CoverResult extends
         proto.Cover, proto.Cover.Builder, proto.CoverOrBuilder> coversBuilder_;
 
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public java.util.List<proto.Cover> getCoversList() {
       if (coversBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class CoverResult extends
       }
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public int getCoversCount() {
       if (coversBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class CoverResult extends
       }
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public proto.Cover getCovers(int index) {
       if (coversBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class CoverResult extends
       }
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder setCovers(
         int index, proto.Cover value) {
@@ -314,7 +314,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder setCovers(
         int index, proto.Cover.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder addCovers(proto.Cover value) {
       if (coversBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder addCovers(
         int index, proto.Cover value) {
@@ -361,7 +361,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder addCovers(
         proto.Cover.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder addCovers(
         int index, proto.Cover.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder addAllCovers(
         java.lang.Iterable<? extends proto.Cover> values) {
@@ -404,7 +404,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder clearCovers() {
       if (coversBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public Builder removeCovers(int index) {
       if (coversBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class CoverResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public proto.Cover.Builder getCoversBuilder(
         int index) {
       return getCoversFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public proto.CoverOrBuilder getCoversOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class CoverResult extends
       }
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public java.util.List<? extends proto.CoverOrBuilder> 
          getCoversOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class CoverResult extends
       }
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public proto.Cover.Builder addCoversBuilder() {
       return getCoversFieldBuilder().addBuilder(
           proto.Cover.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public proto.Cover.Builder addCoversBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class CoverResult extends
           index, proto.Cover.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Cover covers = 1;</code>
+     * <code>repeated .proto.Cover com.codedchai.igdb.kt.covers = 1;</code>
      */
     public java.util.List<proto.Cover.Builder> 
          getCoversBuilderList() {

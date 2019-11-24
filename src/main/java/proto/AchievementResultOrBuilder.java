@@ -8,25 +8,25 @@ public interface AchievementResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Achievement achievements = 1;</code>
+   * <code>repeated .proto.Achievement com.codedchai.igdb.kt.achievements = 1;</code>
    */
   java.util.List<proto.Achievement> 
       getAchievementsList();
   /**
-   * <code>repeated .proto.Achievement achievements = 1;</code>
+   * <code>repeated .proto.Achievement com.codedchai.igdb.kt.achievements = 1;</code>
    */
   proto.Achievement getAchievements(int index);
   /**
-   * <code>repeated .proto.Achievement achievements = 1;</code>
+   * <code>repeated .proto.Achievement com.codedchai.igdb.kt.achievements = 1;</code>
    */
   int getAchievementsCount();
   /**
-   * <code>repeated .proto.Achievement achievements = 1;</code>
+   * <code>repeated .proto.Achievement com.codedchai.igdb.kt.achievements = 1;</code>
    */
   java.util.List<? extends proto.AchievementOrBuilder> 
       getAchievementsOrBuilderList();
   /**
-   * <code>repeated .proto.Achievement achievements = 1;</code>
+   * <code>repeated .proto.Achievement com.codedchai.igdb.kt.achievements = 1;</code>
    */
   proto.AchievementOrBuilder getAchievementsOrBuilder(
       int index);

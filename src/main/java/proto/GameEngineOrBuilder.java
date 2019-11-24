@@ -13,25 +13,25 @@ public interface GameEngineOrBuilder extends
   long getId();
 
   /**
-   * <code>repeated .proto.Company companies = 2;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 2;</code>
    */
   java.util.List<proto.Company> 
       getCompaniesList();
   /**
-   * <code>repeated .proto.Company companies = 2;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 2;</code>
    */
   proto.Company getCompanies(int index);
   /**
-   * <code>repeated .proto.Company companies = 2;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 2;</code>
    */
   int getCompaniesCount();
   /**
-   * <code>repeated .proto.Company companies = 2;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 2;</code>
    */
   java.util.List<? extends proto.CompanyOrBuilder> 
       getCompaniesOrBuilderList();
   /**
-   * <code>repeated .proto.Company companies = 2;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 2;</code>
    */
   proto.CompanyOrBuilder getCompaniesOrBuilder(
       int index);

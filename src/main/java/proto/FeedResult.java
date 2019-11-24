@@ -38,32 +38,32 @@ public  final class FeedResult extends
   public static final int FEEDS_FIELD_NUMBER = 1;
   private java.util.List<proto.Feed> feeds_;
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   public java.util.List<proto.Feed> getFeedsList() {
     return feeds_;
   }
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   public java.util.List<? extends proto.FeedOrBuilder> 
       getFeedsOrBuilderList() {
     return feeds_;
   }
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   public int getFeedsCount() {
     return feeds_.size();
   }
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   public proto.Feed getFeeds(int index) {
     return feeds_.get(index);
   }
   /**
-   * <code>repeated .proto.Feed feeds = 1;</code>
+   * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
    */
   public proto.FeedOrBuilder getFeedsOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class FeedResult extends
         proto.Feed, proto.Feed.Builder, proto.FeedOrBuilder> feedsBuilder_;
 
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public java.util.List<proto.Feed> getFeedsList() {
       if (feedsBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class FeedResult extends
       }
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public int getFeedsCount() {
       if (feedsBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class FeedResult extends
       }
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public proto.Feed getFeeds(int index) {
       if (feedsBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class FeedResult extends
       }
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder setFeeds(
         int index, proto.Feed value) {
@@ -314,7 +314,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder setFeeds(
         int index, proto.Feed.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder addFeeds(proto.Feed value) {
       if (feedsBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder addFeeds(
         int index, proto.Feed value) {
@@ -361,7 +361,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder addFeeds(
         proto.Feed.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder addFeeds(
         int index, proto.Feed.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder addAllFeeds(
         java.lang.Iterable<? extends proto.Feed> values) {
@@ -404,7 +404,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder clearFeeds() {
       if (feedsBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public Builder removeFeeds(int index) {
       if (feedsBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class FeedResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public proto.Feed.Builder getFeedsBuilder(
         int index) {
       return getFeedsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public proto.FeedOrBuilder getFeedsOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class FeedResult extends
       }
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public java.util.List<? extends proto.FeedOrBuilder> 
          getFeedsOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class FeedResult extends
       }
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public proto.Feed.Builder addFeedsBuilder() {
       return getFeedsFieldBuilder().addBuilder(
           proto.Feed.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public proto.Feed.Builder addFeedsBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class FeedResult extends
           index, proto.Feed.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Feed feeds = 1;</code>
+     * <code>repeated .proto.Feed com.codedchai.igdb.kt.feeds = 1;</code>
      */
     public java.util.List<proto.Feed.Builder> 
          getFeedsBuilderList() {

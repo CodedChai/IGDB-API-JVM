@@ -38,32 +38,32 @@ public  final class CompanyResult extends
   public static final int COMPANIES_FIELD_NUMBER = 1;
   private java.util.List<proto.Company> companies_;
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   public java.util.List<proto.Company> getCompaniesList() {
     return companies_;
   }
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   public java.util.List<? extends proto.CompanyOrBuilder> 
       getCompaniesOrBuilderList() {
     return companies_;
   }
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   public int getCompaniesCount() {
     return companies_.size();
   }
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   public proto.Company getCompanies(int index) {
     return companies_.get(index);
   }
   /**
-   * <code>repeated .proto.Company companies = 1;</code>
+   * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
    */
   public proto.CompanyOrBuilder getCompaniesOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class CompanyResult extends
         proto.Company, proto.Company.Builder, proto.CompanyOrBuilder> companiesBuilder_;
 
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public java.util.List<proto.Company> getCompaniesList() {
       if (companiesBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class CompanyResult extends
       }
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public int getCompaniesCount() {
       if (companiesBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class CompanyResult extends
       }
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public proto.Company getCompanies(int index) {
       if (companiesBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class CompanyResult extends
       }
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder setCompanies(
         int index, proto.Company value) {
@@ -314,7 +314,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder setCompanies(
         int index, proto.Company.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder addCompanies(proto.Company value) {
       if (companiesBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder addCompanies(
         int index, proto.Company value) {
@@ -361,7 +361,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder addCompanies(
         proto.Company.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder addCompanies(
         int index, proto.Company.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder addAllCompanies(
         java.lang.Iterable<? extends proto.Company> values) {
@@ -404,7 +404,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder clearCompanies() {
       if (companiesBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public Builder removeCompanies(int index) {
       if (companiesBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class CompanyResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public proto.Company.Builder getCompaniesBuilder(
         int index) {
       return getCompaniesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public proto.CompanyOrBuilder getCompaniesOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class CompanyResult extends
       }
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public java.util.List<? extends proto.CompanyOrBuilder> 
          getCompaniesOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class CompanyResult extends
       }
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public proto.Company.Builder addCompaniesBuilder() {
       return getCompaniesFieldBuilder().addBuilder(
           proto.Company.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public proto.Company.Builder addCompaniesBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class CompanyResult extends
           index, proto.Company.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Company companies = 1;</code>
+     * <code>repeated .proto.Company com.codedchai.igdb.kt.companies = 1;</code>
      */
     public java.util.List<proto.Company.Builder> 
          getCompaniesBuilderList() {

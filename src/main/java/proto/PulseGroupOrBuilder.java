@@ -62,25 +62,25 @@ public interface PulseGroupOrBuilder extends
   com.google.protobuf.TimestampOrBuilder getPublishedAtOrBuilder();
 
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   java.util.List<proto.Pulse> 
       getPulsesList();
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   proto.Pulse getPulses(int index);
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   int getPulsesCount();
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   java.util.List<? extends proto.PulseOrBuilder> 
       getPulsesOrBuilderList();
   /**
-   * <code>repeated .proto.Pulse pulses = 6;</code>
+   * <code>repeated .proto.Pulse com.codedchai.igdb.kt.pulses = 6;</code>
    */
   proto.PulseOrBuilder getPulsesOrBuilder(
       int index);

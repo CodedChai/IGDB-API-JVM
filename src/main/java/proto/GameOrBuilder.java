@@ -13,25 +13,25 @@ public interface GameOrBuilder extends
   long getId();
 
   /**
-   * <code>repeated .proto.AgeRating ageRatings = 2;</code>
+   * <code>repeated .proto.AgeRating com.codedchai.igdb.kt.ageRatings = 2;</code>
    */
   java.util.List<proto.AgeRating> 
       getAgeRatingsList();
   /**
-   * <code>repeated .proto.AgeRating ageRatings = 2;</code>
+   * <code>repeated .proto.AgeRating com.codedchai.igdb.kt.ageRatings = 2;</code>
    */
   proto.AgeRating getAgeRatings(int index);
   /**
-   * <code>repeated .proto.AgeRating ageRatings = 2;</code>
+   * <code>repeated .proto.AgeRating com.codedchai.igdb.kt.ageRatings = 2;</code>
    */
   int getAgeRatingsCount();
   /**
-   * <code>repeated .proto.AgeRating ageRatings = 2;</code>
+   * <code>repeated .proto.AgeRating com.codedchai.igdb.kt.ageRatings = 2;</code>
    */
   java.util.List<? extends proto.AgeRatingOrBuilder> 
       getAgeRatingsOrBuilderList();
   /**
-   * <code>repeated .proto.AgeRating ageRatings = 2;</code>
+   * <code>repeated .proto.AgeRating com.codedchai.igdb.kt.ageRatings = 2;</code>
    */
   proto.AgeRatingOrBuilder getAgeRatingsOrBuilder(
       int index);
@@ -47,49 +47,49 @@ public interface GameOrBuilder extends
   int getAggregatedRatingCount();
 
   /**
-   * <code>repeated .proto.AlternativeName alternativeNames = 5;</code>
+   * <code>repeated .proto.AlternativeName com.codedchai.igdb.kt.alternativeNames = 5;</code>
    */
   java.util.List<proto.AlternativeName> 
       getAlternativeNamesList();
   /**
-   * <code>repeated .proto.AlternativeName alternativeNames = 5;</code>
+   * <code>repeated .proto.AlternativeName com.codedchai.igdb.kt.alternativeNames = 5;</code>
    */
   proto.AlternativeName getAlternativeNames(int index);
   /**
-   * <code>repeated .proto.AlternativeName alternativeNames = 5;</code>
+   * <code>repeated .proto.AlternativeName com.codedchai.igdb.kt.alternativeNames = 5;</code>
    */
   int getAlternativeNamesCount();
   /**
-   * <code>repeated .proto.AlternativeName alternativeNames = 5;</code>
+   * <code>repeated .proto.AlternativeName com.codedchai.igdb.kt.alternativeNames = 5;</code>
    */
   java.util.List<? extends proto.AlternativeNameOrBuilder> 
       getAlternativeNamesOrBuilderList();
   /**
-   * <code>repeated .proto.AlternativeName alternativeNames = 5;</code>
+   * <code>repeated .proto.AlternativeName com.codedchai.igdb.kt.alternativeNames = 5;</code>
    */
   proto.AlternativeNameOrBuilder getAlternativeNamesOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.Artwork artworks = 6;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 6;</code>
    */
   java.util.List<proto.Artwork> 
       getArtworksList();
   /**
-   * <code>repeated .proto.Artwork artworks = 6;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 6;</code>
    */
   proto.Artwork getArtworks(int index);
   /**
-   * <code>repeated .proto.Artwork artworks = 6;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 6;</code>
    */
   int getArtworksCount();
   /**
-   * <code>repeated .proto.Artwork artworks = 6;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 6;</code>
    */
   java.util.List<? extends proto.ArtworkOrBuilder> 
       getArtworksOrBuilderList();
   /**
-   * <code>repeated .proto.Artwork artworks = 6;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 6;</code>
    */
   proto.ArtworkOrBuilder getArtworksOrBuilder(
       int index);
@@ -215,25 +215,25 @@ public interface GameOrBuilder extends
       int index);
 
   /**
-   * <code>repeated .proto.ExternalGame externalGames = 14;</code>
+   * <code>repeated .proto.ExternalGame com.codedchai.igdb.kt.externalGames = 14;</code>
    */
   java.util.List<proto.ExternalGame> 
       getExternalGamesList();
   /**
-   * <code>repeated .proto.ExternalGame externalGames = 14;</code>
+   * <code>repeated .proto.ExternalGame com.codedchai.igdb.kt.externalGames = 14;</code>
    */
   proto.ExternalGame getExternalGames(int index);
   /**
-   * <code>repeated .proto.ExternalGame externalGames = 14;</code>
+   * <code>repeated .proto.ExternalGame com.codedchai.igdb.kt.externalGames = 14;</code>
    */
   int getExternalGamesCount();
   /**
-   * <code>repeated .proto.ExternalGame externalGames = 14;</code>
+   * <code>repeated .proto.ExternalGame com.codedchai.igdb.kt.externalGames = 14;</code>
    */
   java.util.List<? extends proto.ExternalGameOrBuilder> 
       getExternalGamesOrBuilderList();
   /**
-   * <code>repeated .proto.ExternalGame externalGames = 14;</code>
+   * <code>repeated .proto.ExternalGame com.codedchai.igdb.kt.externalGames = 14;</code>
    */
   proto.ExternalGameOrBuilder getExternalGamesOrBuilder(
       int index);
@@ -270,73 +270,73 @@ public interface GameOrBuilder extends
   proto.FranchiseOrBuilder getFranchiseOrBuilder();
 
   /**
-   * <code>repeated .proto.Franchise franchises = 18;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 18;</code>
    */
   java.util.List<proto.Franchise> 
       getFranchisesList();
   /**
-   * <code>repeated .proto.Franchise franchises = 18;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 18;</code>
    */
   proto.Franchise getFranchises(int index);
   /**
-   * <code>repeated .proto.Franchise franchises = 18;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 18;</code>
    */
   int getFranchisesCount();
   /**
-   * <code>repeated .proto.Franchise franchises = 18;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 18;</code>
    */
   java.util.List<? extends proto.FranchiseOrBuilder> 
       getFranchisesOrBuilderList();
   /**
-   * <code>repeated .proto.Franchise franchises = 18;</code>
+   * <code>repeated .proto.Franchise com.codedchai.igdb.kt.franchises = 18;</code>
    */
   proto.FranchiseOrBuilder getFranchisesOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.GameEngine gameEngines = 19;</code>
+   * <code>repeated .proto.GameEngine com.codedchai.igdb.kt.gameEngines = 19;</code>
    */
   java.util.List<proto.GameEngine> 
       getGameEnginesList();
   /**
-   * <code>repeated .proto.GameEngine gameEngines = 19;</code>
+   * <code>repeated .proto.GameEngine com.codedchai.igdb.kt.gameEngines = 19;</code>
    */
   proto.GameEngine getGameEngines(int index);
   /**
-   * <code>repeated .proto.GameEngine gameEngines = 19;</code>
+   * <code>repeated .proto.GameEngine com.codedchai.igdb.kt.gameEngines = 19;</code>
    */
   int getGameEnginesCount();
   /**
-   * <code>repeated .proto.GameEngine gameEngines = 19;</code>
+   * <code>repeated .proto.GameEngine com.codedchai.igdb.kt.gameEngines = 19;</code>
    */
   java.util.List<? extends proto.GameEngineOrBuilder> 
       getGameEnginesOrBuilderList();
   /**
-   * <code>repeated .proto.GameEngine gameEngines = 19;</code>
+   * <code>repeated .proto.GameEngine com.codedchai.igdb.kt.gameEngines = 19;</code>
    */
   proto.GameEngineOrBuilder getGameEnginesOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.GameMode gameModes = 20;</code>
+   * <code>repeated .proto.GameMode com.codedchai.igdb.kt.gameModes = 20;</code>
    */
   java.util.List<proto.GameMode> 
       getGameModesList();
   /**
-   * <code>repeated .proto.GameMode gameModes = 20;</code>
+   * <code>repeated .proto.GameMode com.codedchai.igdb.kt.gameModes = 20;</code>
    */
   proto.GameMode getGameModes(int index);
   /**
-   * <code>repeated .proto.GameMode gameModes = 20;</code>
+   * <code>repeated .proto.GameMode com.codedchai.igdb.kt.gameModes = 20;</code>
    */
   int getGameModesCount();
   /**
-   * <code>repeated .proto.GameMode gameModes = 20;</code>
+   * <code>repeated .proto.GameMode com.codedchai.igdb.kt.gameModes = 20;</code>
    */
   java.util.List<? extends proto.GameModeOrBuilder> 
       getGameModesOrBuilderList();
   /**
-   * <code>repeated .proto.GameMode gameModes = 20;</code>
+   * <code>repeated .proto.GameMode com.codedchai.igdb.kt.gameModes = 20;</code>
    */
   proto.GameModeOrBuilder getGameModesOrBuilder(
       int index);
@@ -371,73 +371,73 @@ public interface GameOrBuilder extends
   int getHypes();
 
   /**
-   * <code>repeated .proto.InvolvedCompany involvedCompanies = 23;</code>
+   * <code>repeated .proto.InvolvedCompany com.codedchai.igdb.kt.involvedCompanies = 23;</code>
    */
   java.util.List<proto.InvolvedCompany> 
       getInvolvedCompaniesList();
   /**
-   * <code>repeated .proto.InvolvedCompany involvedCompanies = 23;</code>
+   * <code>repeated .proto.InvolvedCompany com.codedchai.igdb.kt.involvedCompanies = 23;</code>
    */
   proto.InvolvedCompany getInvolvedCompanies(int index);
   /**
-   * <code>repeated .proto.InvolvedCompany involvedCompanies = 23;</code>
+   * <code>repeated .proto.InvolvedCompany com.codedchai.igdb.kt.involvedCompanies = 23;</code>
    */
   int getInvolvedCompaniesCount();
   /**
-   * <code>repeated .proto.InvolvedCompany involvedCompanies = 23;</code>
+   * <code>repeated .proto.InvolvedCompany com.codedchai.igdb.kt.involvedCompanies = 23;</code>
    */
   java.util.List<? extends proto.InvolvedCompanyOrBuilder> 
       getInvolvedCompaniesOrBuilderList();
   /**
-   * <code>repeated .proto.InvolvedCompany involvedCompanies = 23;</code>
+   * <code>repeated .proto.InvolvedCompany com.codedchai.igdb.kt.involvedCompanies = 23;</code>
    */
   proto.InvolvedCompanyOrBuilder getInvolvedCompaniesOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.Keyword keywords = 24;</code>
+   * <code>repeated .proto.Keyword com.codedchai.igdb.kt.keywords = 24;</code>
    */
   java.util.List<proto.Keyword> 
       getKeywordsList();
   /**
-   * <code>repeated .proto.Keyword keywords = 24;</code>
+   * <code>repeated .proto.Keyword com.codedchai.igdb.kt.keywords = 24;</code>
    */
   proto.Keyword getKeywords(int index);
   /**
-   * <code>repeated .proto.Keyword keywords = 24;</code>
+   * <code>repeated .proto.Keyword com.codedchai.igdb.kt.keywords = 24;</code>
    */
   int getKeywordsCount();
   /**
-   * <code>repeated .proto.Keyword keywords = 24;</code>
+   * <code>repeated .proto.Keyword com.codedchai.igdb.kt.keywords = 24;</code>
    */
   java.util.List<? extends proto.KeywordOrBuilder> 
       getKeywordsOrBuilderList();
   /**
-   * <code>repeated .proto.Keyword keywords = 24;</code>
+   * <code>repeated .proto.Keyword com.codedchai.igdb.kt.keywords = 24;</code>
    */
   proto.KeywordOrBuilder getKeywordsOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.MultiplayerMode multiplayerModes = 25;</code>
+   * <code>repeated .proto.MultiplayerMode com.codedchai.igdb.kt.multiplayerModes = 25;</code>
    */
   java.util.List<proto.MultiplayerMode> 
       getMultiplayerModesList();
   /**
-   * <code>repeated .proto.MultiplayerMode multiplayerModes = 25;</code>
+   * <code>repeated .proto.MultiplayerMode com.codedchai.igdb.kt.multiplayerModes = 25;</code>
    */
   proto.MultiplayerMode getMultiplayerModes(int index);
   /**
-   * <code>repeated .proto.MultiplayerMode multiplayerModes = 25;</code>
+   * <code>repeated .proto.MultiplayerMode com.codedchai.igdb.kt.multiplayerModes = 25;</code>
    */
   int getMultiplayerModesCount();
   /**
-   * <code>repeated .proto.MultiplayerMode multiplayerModes = 25;</code>
+   * <code>repeated .proto.MultiplayerMode com.codedchai.igdb.kt.multiplayerModes = 25;</code>
    */
   java.util.List<? extends proto.MultiplayerModeOrBuilder> 
       getMultiplayerModesOrBuilderList();
   /**
-   * <code>repeated .proto.MultiplayerMode multiplayerModes = 25;</code>
+   * <code>repeated .proto.MultiplayerMode com.codedchai.igdb.kt.multiplayerModes = 25;</code>
    */
   proto.MultiplayerModeOrBuilder getMultiplayerModesOrBuilder(
       int index);
@@ -490,25 +490,25 @@ public interface GameOrBuilder extends
       int index);
 
   /**
-   * <code>repeated .proto.PlayerPerspective playerPerspectives = 29;</code>
+   * <code>repeated .proto.PlayerPerspective com.codedchai.igdb.kt.playerPerspectives = 29;</code>
    */
   java.util.List<proto.PlayerPerspective> 
       getPlayerPerspectivesList();
   /**
-   * <code>repeated .proto.PlayerPerspective playerPerspectives = 29;</code>
+   * <code>repeated .proto.PlayerPerspective com.codedchai.igdb.kt.playerPerspectives = 29;</code>
    */
   proto.PlayerPerspective getPlayerPerspectives(int index);
   /**
-   * <code>repeated .proto.PlayerPerspective playerPerspectives = 29;</code>
+   * <code>repeated .proto.PlayerPerspective com.codedchai.igdb.kt.playerPerspectives = 29;</code>
    */
   int getPlayerPerspectivesCount();
   /**
-   * <code>repeated .proto.PlayerPerspective playerPerspectives = 29;</code>
+   * <code>repeated .proto.PlayerPerspective com.codedchai.igdb.kt.playerPerspectives = 29;</code>
    */
   java.util.List<? extends proto.PlayerPerspectiveOrBuilder> 
       getPlayerPerspectivesOrBuilderList();
   /**
-   * <code>repeated .proto.PlayerPerspective playerPerspectives = 29;</code>
+   * <code>repeated .proto.PlayerPerspective com.codedchai.igdb.kt.playerPerspectives = 29;</code>
    */
   proto.PlayerPerspectiveOrBuilder getPlayerPerspectivesOrBuilder(
       int index);
@@ -534,49 +534,49 @@ public interface GameOrBuilder extends
   int getRatingCount();
 
   /**
-   * <code>repeated .proto.ReleaseDate releaseDates = 34;</code>
+   * <code>repeated .proto.ReleaseDate com.codedchai.igdb.kt.releaseDates = 34;</code>
    */
   java.util.List<proto.ReleaseDate> 
       getReleaseDatesList();
   /**
-   * <code>repeated .proto.ReleaseDate releaseDates = 34;</code>
+   * <code>repeated .proto.ReleaseDate com.codedchai.igdb.kt.releaseDates = 34;</code>
    */
   proto.ReleaseDate getReleaseDates(int index);
   /**
-   * <code>repeated .proto.ReleaseDate releaseDates = 34;</code>
+   * <code>repeated .proto.ReleaseDate com.codedchai.igdb.kt.releaseDates = 34;</code>
    */
   int getReleaseDatesCount();
   /**
-   * <code>repeated .proto.ReleaseDate releaseDates = 34;</code>
+   * <code>repeated .proto.ReleaseDate com.codedchai.igdb.kt.releaseDates = 34;</code>
    */
   java.util.List<? extends proto.ReleaseDateOrBuilder> 
       getReleaseDatesOrBuilderList();
   /**
-   * <code>repeated .proto.ReleaseDate releaseDates = 34;</code>
+   * <code>repeated .proto.ReleaseDate com.codedchai.igdb.kt.releaseDates = 34;</code>
    */
   proto.ReleaseDateOrBuilder getReleaseDatesOrBuilder(
       int index);
 
   /**
-   * <code>repeated .proto.Screenshot screenshots = 35;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 35;</code>
    */
   java.util.List<proto.Screenshot> 
       getScreenshotsList();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 35;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 35;</code>
    */
   proto.Screenshot getScreenshots(int index);
   /**
-   * <code>repeated .proto.Screenshot screenshots = 35;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 35;</code>
    */
   int getScreenshotsCount();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 35;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 35;</code>
    */
   java.util.List<? extends proto.ScreenshotOrBuilder> 
       getScreenshotsOrBuilderList();
   /**
-   * <code>repeated .proto.Screenshot screenshots = 35;</code>
+   * <code>repeated .proto.Screenshot com.codedchai.igdb.kt.screenshots = 35;</code>
    */
   proto.ScreenshotOrBuilder getScreenshotsOrBuilder(
       int index);

@@ -8,25 +8,25 @@ public interface CollectionResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   java.util.List<proto.Collection> 
       getCollectionsList();
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   proto.Collection getCollections(int index);
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   int getCollectionsCount();
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   java.util.List<? extends proto.CollectionOrBuilder> 
       getCollectionsOrBuilderList();
   /**
-   * <code>repeated .proto.Collection collections = 1;</code>
+   * <code>repeated .proto.Collection com.codedchai.igdb.kt.collections = 1;</code>
    */
   proto.CollectionOrBuilder getCollectionsOrBuilder(
       int index);

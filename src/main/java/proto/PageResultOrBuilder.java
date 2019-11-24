@@ -8,25 +8,25 @@ public interface PageResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   java.util.List<proto.Page> 
       getPagesList();
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   proto.Page getPages(int index);
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   int getPagesCount();
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   java.util.List<? extends proto.PageOrBuilder> 
       getPagesOrBuilderList();
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   proto.PageOrBuilder getPagesOrBuilder(
       int index);

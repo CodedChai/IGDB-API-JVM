@@ -38,32 +38,32 @@ public  final class PageResult extends
   public static final int PAGES_FIELD_NUMBER = 1;
   private java.util.List<proto.Page> pages_;
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   public java.util.List<proto.Page> getPagesList() {
     return pages_;
   }
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   public java.util.List<? extends proto.PageOrBuilder> 
       getPagesOrBuilderList() {
     return pages_;
   }
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   public int getPagesCount() {
     return pages_.size();
   }
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   public proto.Page getPages(int index) {
     return pages_.get(index);
   }
   /**
-   * <code>repeated .proto.Page pages = 1;</code>
+   * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
    */
   public proto.PageOrBuilder getPagesOrBuilder(
       int index) {
@@ -267,7 +267,7 @@ public  final class PageResult extends
         proto.Page, proto.Page.Builder, proto.PageOrBuilder> pagesBuilder_;
 
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public java.util.List<proto.Page> getPagesList() {
       if (pagesBuilder_ == null) {
@@ -277,7 +277,7 @@ public  final class PageResult extends
       }
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public int getPagesCount() {
       if (pagesBuilder_ == null) {
@@ -287,7 +287,7 @@ public  final class PageResult extends
       }
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public proto.Page getPages(int index) {
       if (pagesBuilder_ == null) {
@@ -297,7 +297,7 @@ public  final class PageResult extends
       }
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder setPages(
         int index, proto.Page value) {
@@ -314,7 +314,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder setPages(
         int index, proto.Page.Builder builderForValue) {
@@ -328,7 +328,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder addPages(proto.Page value) {
       if (pagesBuilder_ == null) {
@@ -344,7 +344,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder addPages(
         int index, proto.Page value) {
@@ -361,7 +361,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder addPages(
         proto.Page.Builder builderForValue) {
@@ -375,7 +375,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder addPages(
         int index, proto.Page.Builder builderForValue) {
@@ -389,7 +389,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder addAllPages(
         java.lang.Iterable<? extends proto.Page> values) {
@@ -404,7 +404,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder clearPages() {
       if (pagesBuilder_ == null) {
@@ -417,7 +417,7 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public Builder removePages(int index) {
       if (pagesBuilder_ == null) {
@@ -430,14 +430,14 @@ public  final class PageResult extends
       return this;
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public proto.Page.Builder getPagesBuilder(
         int index) {
       return getPagesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public proto.PageOrBuilder getPagesOrBuilder(
         int index) {
@@ -447,7 +447,7 @@ public  final class PageResult extends
       }
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public java.util.List<? extends proto.PageOrBuilder> 
          getPagesOrBuilderList() {
@@ -458,14 +458,14 @@ public  final class PageResult extends
       }
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public proto.Page.Builder addPagesBuilder() {
       return getPagesFieldBuilder().addBuilder(
           proto.Page.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public proto.Page.Builder addPagesBuilder(
         int index) {
@@ -473,7 +473,7 @@ public  final class PageResult extends
           index, proto.Page.getDefaultInstance());
     }
     /**
-     * <code>repeated .proto.Page pages = 1;</code>
+     * <code>repeated .proto.Page com.codedchai.igdb.kt.pages = 1;</code>
      */
     public java.util.List<proto.Page.Builder> 
          getPagesBuilderList() {

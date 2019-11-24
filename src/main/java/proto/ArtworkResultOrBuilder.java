@@ -8,25 +8,25 @@ public interface ArtworkResultOrBuilder extends
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .proto.Artwork artworks = 1;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 1;</code>
    */
   java.util.List<proto.Artwork> 
       getArtworksList();
   /**
-   * <code>repeated .proto.Artwork artworks = 1;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 1;</code>
    */
   proto.Artwork getArtworks(int index);
   /**
-   * <code>repeated .proto.Artwork artworks = 1;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 1;</code>
    */
   int getArtworksCount();
   /**
-   * <code>repeated .proto.Artwork artworks = 1;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 1;</code>
    */
   java.util.List<? extends proto.ArtworkOrBuilder> 
       getArtworksOrBuilderList();
   /**
-   * <code>repeated .proto.Artwork artworks = 1;</code>
+   * <code>repeated .proto.Artwork com.codedchai.igdb.kt.artworks = 1;</code>
    */
   proto.ArtworkOrBuilder getArtworksOrBuilder(
       int index);

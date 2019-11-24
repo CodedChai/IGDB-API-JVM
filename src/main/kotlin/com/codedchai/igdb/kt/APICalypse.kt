@@ -1,4 +1,4 @@
-
+package com.codedchai.igdb.kt
 
 class APICalypse {
     private var search = ""
