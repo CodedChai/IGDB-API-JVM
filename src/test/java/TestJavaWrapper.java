@@ -1,4 +1,4 @@
-import com.codedchai.igdb.kt.ProtoRequestKt;
+import com.codedchai.igdb.kt.*;
 import org.junit.jupiter.api.Test;
 import proto.Cover;
 import proto.Game;
